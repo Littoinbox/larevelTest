@@ -29,7 +29,7 @@ class ArticleFactory extends Factory
             'slug' => $slug,
             'body' => $this->faker->paragraph(100, true),
             'photo' => 'via.placeholder.com/350x150',
-            'created_ad'=> $this->faker->dateTimeBetween('-1 years')
+            'created_at'=> $this->faker->dateTimeBetween('-1 years')
         ];
     }
 }

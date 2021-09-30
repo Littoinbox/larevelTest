@@ -23,7 +23,7 @@ class TagFactory extends Factory
     {
         return [
             //
-            'lable'=> $this->faker->word()
+            'label'=> $this->faker->word()
         ];
     }
 }
